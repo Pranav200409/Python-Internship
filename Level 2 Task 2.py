@@ -1,3 +1,6 @@
+'''Create a number guessing game where the program generates a random number between a specified range,
+and the user tries to guess it. Provide feedback to the user if their guess is too high or too low.'''
+
 import random
 
 def feedback(guess1, number, min_num, max_num):
