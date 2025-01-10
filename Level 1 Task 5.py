@@ -1,3 +1,7 @@
+'''Write a Python function that checks whether a given string is a palindrome.
+A palindrome is a word, phrase, or sequence that reads the same backward 
+as forward (e.g., "madam" or "racecar").'''
+
 def palindrome_checker(str):
     return str == str[::-1]
 
